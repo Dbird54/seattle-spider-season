@@ -4,43 +4,61 @@
 
 .page-color {
     display: flex;
-    height: 100vh;
+    margin: 50px 50px;
+    height: 75vh;
     align-items: center;
-    margin: auto;
-    padding: 50px;
-}
-
-body {
-    background-color: rgb(243, 200, 120);
-}
-
-.illustration {
-    /*align-items: center;*/
-}
-
-.div1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+    justify-content: right;
 }
 
 .column-text {
-    display: flex;
+    width: 20%;
     flex-direction: column;
-}
-
-.buttons {
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-}
-
-.bold1 p span  {
-    font-size: 24px;
+    margin-right: 15%;
+    margin-left: 15%;
+    flex-wrap: wrap;
 }
 
 .column-text div {
-    margin-top: 100px;
+    margin: 100px 0px;
 }
+
+.smallimg {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.button {
+    margin-right: 5%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: rgb(214, 164, 57);
+}
+
+span.report {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+span.respect {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.smallimg {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: ;
+}
+
+
+
 
